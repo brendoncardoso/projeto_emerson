@@ -1,0 +1,19 @@
+table {
+margin: 0 auto;
+margin-top: 40px;
+border-collapse: collapse;
+border-spacing: 8px;
+text-align: center;
+font-size: 10px;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}

@@ -1,0 +1,89 @@
+/*LAYAOUT*/
+a:hover{text-decoration: none;}
+body{background-color: #d3d3d3;}
+thead{text-align: center; background-color: #343a40; color: white;}
+tbody{text-align: center; background-color: white;}
+.table td, .table th {
+    vertical-align: none!important;
+    border-top: 1px solid #dee2e6;
+    font-size: 12px!important;
+}
+
+.table td{
+    vertical-align: none!important;
+}
+
+
+.table th{
+    vertical-align: none!important;
+}
+
+.card-header {
+    background-color:#343A40;
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+
+.card-footer {
+    background-color:#343A40;
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.right{
+    float: right;
+}
+
+.modal-open{
+    overflow: hidden!important;
+}
+
+/*.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: #343A40;
+    border-top: 1px solid rgba(0,0,0,.125);
+}*/
+
+.thumbnail a{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    height: 110px;
+    width: 150px;
+    margin-right: 20px;
+    color: black;
+}
+
+.thumbnail a:hover {
+    background: #343A40;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.buttonIcon{
+    margin-top: 15px;
+}
+
+.buttonName{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+
+/*TIRAR OS BOTÕES NA HORA DE IMPRIMIR*/
+@media print {
+    .no-print {
+        display: none;
+    }
+}

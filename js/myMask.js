@@ -1,0 +1,20 @@
+$(document).ready(function(){
+        $('.data').mask('00/00/0000');
+        $('.horario').mask('00:00:00');
+        $('.data_prazo').mask('00/00/0000');
+        $('.data_despacho').mask('00/00/0000');
+        $('.data_autuacao').mask('00/00/0000');
+        $('.vt').mask('00ª');
+        $('.vc').mask('00ª');
+        $('.processo_civil').mask('0000000-00.0000.0.00.0000');
+        $('.procCNJ1').mask('0000000-00.0000');
+        $('.procCNJ2').mask('0000');
+        $('.proc_judicial').mask('0000000-00.0000.0.00.0000');
+        $('.processo_eletronico').mask('0000000-00.0000.0.00.0000', {reverse: true});
+        $('.processo_eletronico').mask('0000000-00.0000.0.00.0000', {reverse: true});
+        $('.processo_administrativo').mask('00/0000000/00', {reverse: true});
+        $('.cpf').mask('000.000.000-00', {reverse: true});
+        $('.cnpj').mask('00.000.000/0000-00', {reverse: true});
+        $('.money').mask('000.000.000.000.000,00', {reverse: true});
+        $('.money2').mask("#.##0,00", {reverse: true});
+});
